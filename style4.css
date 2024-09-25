@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+header{
     background-image: url("bg.png");
     background-size: cover;
     background-attachment: fixed;
@@ -27,7 +27,6 @@ body{
     justify-content: center;
     font-size: 100px;
     letter-spacing: 2mm;
-    padding-top: 300px;
 }
 
 .award{
@@ -45,12 +44,157 @@ body{
     text-align: center;
     color: #fff;
     font-size: 20px;
-    padding-top: 400px;
 }
 
-header{
+.menu1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: white;
-    width: 100%;
-    height: 65px;
-    
+    font-size:30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap: 100px;
+    margin: 0 auto;
+    padding-right: 300px;
+    height: 100px;
+}
+
+.menu1 a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s ease-in-out;
+}
+
+.menu1 a:hover{
+    color: rgb(25, 141, 199);
+    transition: color 0.5s ease-in-out;
+}
+.img-logo{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-top: 38px;
+    padding-left: 200px;
+}
+
+.outtext{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    color: rgb(66, 66, 66);
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+}
+
+.founded{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    padding-left: 500px;
+    padding-top: 75px;
+    font-size: 25px;
+    color: rgb(66, 66, 66);
+    position: absolute;
+}
+
+.lorem{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    padding-left: 500px;
+    padding-top: 275px;
+    position: absolute;
+
+}
+
+.plan{
+    position: absolute;
+    padding-left: 950px;
+    padding-top: 100px;
+}
+
+.planpng{
+    display: flex;
+    justify-content: center;
+}
+
+.manage{
+    position: absolute;
+    padding-left: 1100px;
+    padding-top: 100px;
+}
+
+.managepng{
+    display: flex;
+    justify-content: center;
+}
+
+.build{
+    position: absolute;
+    padding-left: 1250px;
+    padding-top: 100px;
+}
+
+.buildpng{
+    display: flex;
+    justify-content: center;
+}
+
+.capabilities{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: rgb(66, 66, 66);
+    padding-top: 500px;
+    padding-left: 550px;
+    position: absolute;
+}
+
+.line2{
+    padding-left: 550px;
+    position: absolute;
+}
+
+.lorem2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+    padding-left: 950px;
+    padding-top: 510px;
+    position: absolute;
+}
+
+.butt {
+    box-shadow: 0 5px 15px 0 rgba(11, 99, 246, 1);
+    transition: 0.5s;
+  }
+  
+.butt:hover {
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 40px 0 rgba(11, 99, 246, 1);
 }
