@@ -58,7 +58,6 @@ header{
     list-style: none;
     gap: 100px;
     margin: 0 auto;
-    padding-right: 300px;
     height: 100px;
 }
 
@@ -72,13 +71,15 @@ header{
     color: rgb(25, 141, 199);
     transition: color 0.5s ease-in-out;
 }
-.img-logo{
-    position: absolute;
+
+nav{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    padding-top: 38px;
-    padding-left: 200px;
+    justify-content: space-between;
+}
+
+.img-logo{
+    display: flex;
+    align-items: center;
 }
 
 .outtext{
@@ -90,7 +91,6 @@ header{
     "wdth" 100;
     display: flex;
     justify-content: center;
-    padding-top: 75px;
     color: rgb(66, 66, 66);
 }
 
@@ -106,11 +106,30 @@ header{
     font-style: normal;
     font-variation-settings:
     "wdth" 100;
-    padding-left: 500px;
-    padding-top: 75px;
     font-size: 25px;
     color: rgb(66, 66, 66);
-    position: absolute;
+
+}
+
+.our-story{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    height: 400px;
+    padding-top: 45px;
+}
+
+.storyline{
+    height: 150px;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px; 
+    gap: 18px;
 }
 
 .lorem{
@@ -120,46 +139,26 @@ header{
     line-height: 177%;
     letter-spacing: 0.01em;
     color: #48555b;
-    padding-left: 500px;
-    padding-top: 275px;
-    position: absolute;
 
-}
 
-.plan{
-    position: absolute;
-    padding-left: 950px;
-    padding-top: 100px;
-}
-
-.planpng{
-    display: flex;
-    justify-content: center;
-}
-
-.manage{
-    position: absolute;
-    padding-left: 1100px;
-    padding-top: 100px;
-}
-
-.managepng{
-    display: flex;
-    justify-content: center;
-}
-
-.build{
-    position: absolute;
-    padding-left: 1250px;
-    padding-top: 100px;
-}
-
-.buildpng{
-    display: flex;
-    justify-content: center;
 }
 
 .capabilities{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 90px;
+    padding-left: 20px;
+}
+
+.capaline{
+    display: flex;
+    flex-direction: column;
+}
+
+.capabilities-name{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -167,14 +166,6 @@ header{
     font-variation-settings:
     "wdth" 100;
     color: rgb(66, 66, 66);
-    padding-top: 500px;
-    padding-left: 550px;
-    position: absolute;
-}
-
-.line2{
-    padding-left: 550px;
-    position: absolute;
 }
 
 .lorem2{
@@ -184,17 +175,141 @@ header{
     line-height: 177%;
     letter-spacing: 0.01em;
     color: #48555b;
-    padding-left: 950px;
-    padding-top: 510px;
-    position: absolute;
 }
 
-.butt {
-    box-shadow: 0 5px 15px 0 rgba(11, 99, 246, 1);
+button {
+    color: aliceblue;
+    background-color: rgb(0, 164, 229);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 30px;
+    border: none;
+    width: 155px;
     transition: 0.5s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
   }
   
-.butt:hover {
-    transform: translate(0,-3px);
-    box-shadow: 0 20px 40px 0 rgba(11, 99, 246, 1);
+button:active {
+    transform: scale(0.86);
+}
+
+.services-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.services-item{
+    max-width: 275px;
+    min-height: 300px;
+    padding: 32px 0 10px 20px;
+    border: 1px solid #E6E6E6;
+    background: #FFF;
+}
+
+.services-title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 177%;
+    letter-spacing: 0.2em;
+    color: #48555b;
+    font-weight: 700;
+}
+
+.services-text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 177%;
+    letter-spacing: 0.01em;
+    color: #48555b;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.section-2 {
+    background-image: url("bg2.png");
+    background-size: cover;
+    min-height: 55vh;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 500px;
+}
+
+.work-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #48555b;  
+    max-width: 350px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    margin-bottom: 45px; 
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100px;
+    background: #171819;
+}
+
+.contact-container{
+    flex-direction: row;
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.contact-title{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.846px;
+}
+
+.contact-input{
+    width: 100%;
+    padding: 10px;
+    max-width: 250px;
+}
+
+.contact-btn{
+    padding: 10px 50px;
+    max-width: 150px;
+}
+
+.contact-form{
+    display: flex;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 50px;
 }
