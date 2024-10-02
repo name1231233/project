@@ -285,6 +285,7 @@ ul{
 }
 
 .contact-title{
+    font-family: "Open Sans", sans-serif;
     color: #FFF;
     font-size: 22px;
     font-weight: 700;
@@ -312,4 +313,77 @@ ul{
     flex-wrap: wrap;
     gap: 40px;
     padding-bottom: 50px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.footer{
+    padding-top: 50px;
+    background: #141A20;
+}
+
+.footer-company{
+    max-width: 250px;
+}
+
+.footer-title{
+    margin-bottom: 20px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.846px;
+}
+
+.footer-text{
+    font-family: "Open Sans", sans-serif;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+}
+
+.footer-contact-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-small-text{
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+.footer-list{
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+div{
+    display: block;
+
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease-in-out;
+}
+
+.final{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    background: #171819;
 }
